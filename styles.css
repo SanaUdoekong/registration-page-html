@@ -149,6 +149,10 @@ a{
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .r-form input[type=submit] {
     margin-bottom: 12px;
     margin-top: 6px;
