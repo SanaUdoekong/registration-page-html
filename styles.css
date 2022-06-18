@@ -93,6 +93,7 @@
     margin: 6px auto;
     width: 90%;
     border:  1px solid  hsl(249, 10%, 26%);
+    cursor: pointer;
 }
 
 .r-form input:focus{
@@ -190,6 +191,7 @@ a{
     color: white;
     font-family: Poppins;
     font-weight:600;
+    cursor: pointer;
     font-size: 16px;
 }
 
