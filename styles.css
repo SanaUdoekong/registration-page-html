@@ -19,6 +19,34 @@
         background-color: hsl(0, 100%, 74%);
         background-image: url("./images/bg-intro-desktop.png")
     }
+
+    .text-section {
+        color: white;
+        width: 100%
+    }
+}
+
+@media screen  and (min-width:375px) and (max-width:540px){
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 75%;
+        margin: 2% auto;
+        align-items: center;
+        justify-items: center;
+    } 
+    
+    body {
+        place-items: center;
+        background-color: hsl(0, 100%, 74%);
+        background-image: url("./images/bg-intro-mobile.png")
+    } 
+    .text-section {
+        text-align: center;
+        color: white;
+        width: 100%
+    }
 }
 
 @media screen  and (max-width:375px){
@@ -37,11 +65,13 @@
         background-color: hsl(0, 100%, 74%);
         background-image: url("./images/bg-intro-mobile.png")
     } 
+    .text-section {
+        color: white;
+        text-align: center;
+        width: 100%
+    }
 }
-.text-section {
-    color: white;
-    width: 100%
-}
+
 
 .form-section {
     display: flex;
